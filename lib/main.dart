@@ -185,16 +185,5 @@ class Home extends StatelessWidget{
   }
 }
 
-//void savedSuccess() {
-  //var alertDialog = AlertDialog(
-    //title: Text("Saved succesfully"),
-    //content: Text("Take care"),
-  //);
-  //showDialog(
-    //  builder: (BuildContext context) {
-      //  return alertDialog;
-      //}
 
-  //);
-//}
 
