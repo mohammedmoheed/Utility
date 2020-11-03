@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "453849351362",
+    "firebase_url": "https://push-notificatons-f1a81.firebaseio.com",
+    "project_id": "push-notificatons-f1a81",
+    "storage_bucket": "push-notificatons-f1a81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453849351362:android:b892ab77004ad8b0c0e75b",
+        "android_client_info": {
+          "package_name": "com.gypsy.pistevo2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453849351362-oup5tap3a07nu10ttten685rl97v6e5h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmvdgZVEKPv51OkZKU9ghk4vuvXC3v2Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453849351362-oup5tap3a07nu10ttten685rl97v6e5h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "alassist-eqaluv",
+  "private_key_id": "80b538d055e0afb69340aa82e93fe15677e34f34",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC3lpiHYMF7Bajt\n32CiUJBkn4lKpmwzXKxtMAp88CslNMHRQ1yDqg3cfnMVx4YrocdQbdzg8CkecRIE\nKqWmGBAb1aS8ha+hRwXenuLjwSPXQ66kV3SAuDtHypLaKOG26kmLcFzQDllwpxvr\nrNz/mdbmQmeU7A9g7rdSern99cctMD6ClTvIH7N/zUN8XbJ2hjfQORRTQE2gTe9V\n3VKVz7UwZ05R/BnZppqjLFImmy1Qqmv+8YAudFScglQEc1VBAUImLpd7Ie8/7IXO\niD4TzVww+bHRM56kKS5pMiGt0W1s+Zq62CJcaKLBqmmlKJO+uNih0xhOyCrJEQCV\nHHfc8ANnAgMBAAECggEATdL3jq/b5PAlx8yA9N2tEBK3Ct+Yj39SEqkiUQsoZwnB\nvZlODvxYCufJlmpxvG5EhRpFX08/RwnMhtqjRND/hyUeQ9Jx/K6UVOZKrRyTOm4V\nCtKN7wDqFElRzkw1Pqp7ibIUjhf/HyufwNyTBIEs4Yg1y6Hz9PXM3Zhr3rXA/Ky2\nZreXOTimCGeXLwSoeq/Cs6XurDxMj5Q9feWpqP6E8d7rsvcYRLpPPp7c0uxwKMMt\nngtNQMP+ahjUyfcdMVkSthcCOk6cGqe38VlJJp1eSSgMp6PRgax1s+1vsdDDs97l\nR/IiMhQrnu29EfaU1wdIH7DBdkq7t+5nXPokqvCNyQKBgQDh0cIyjD73x3xS274U\no0bTskSivzwSyAmnWuFjXlKn7D9D+cNnAMlzVSk2ReT0VyjAFo9GVGLM2H8DEz93\ncBZXVG67MckQQk6RegmbyXhZalzO+5MEwusKu4P5Of78ffUuIYleWeFHX1X/Pn53\nSZACnBLwcXqwsxi03zPsGPc36QKBgQDQH+50hL6rJr6p+ON6ieaGYNuAPe/iso1y\nHRiDdTUTawjk0+dpu/TZfJd/124clQQzJD+Hl3GGA5eyr2Hm6CQZVFDoPWDwfLHi\nkpTmxCWAHDgytNGELd0i/QXTf8raRWCNUmtVsX/7urSLSDVTNfV8P3RfQQS3jlYu\nqYFYB0iezwKBgQDGPz8s30DciI4VtAKQ3bLtYQCunBKiLmmDOd7LPOB1uYrlI10v\njVpN3UK7+eqBtA77bBLGXIkMazg+O+So94c1jdNUleV9V6jgQHI1CU+VuDHYKLYu\nJOzx1CONZiP8CJx5rkmJwoBrB0BZP8UI9lTuZZSe8BEVFXYoPBe6O0S2GQKBgBiT\nnLn/rvBRC/TQYjRnMmSt7V2wcrJneVJ/YxSq85COdCdpaotO2bQRBWbgTq1rX2qW\nnjXpyUsVA4XjNgFpalHfZgp2rQrY/ryNqK2zfeYp7uz180PTkqh+DoESNycdSDCI\nCgq9gip8urMz3LAt0AZTC+/vopn2YfDyrUZy3b17AoGBAIT8k/BLQmItWlHKNeAZ\nV3yKT3G/bAYdLXDP3RrHP5ku9DoSvgkgVaQGYRWX53lpz4Tq4VQdniSNWHmh4OEW\nKej2nWfg+pf3Tlv4xCk6YaGKhikr9wKJCPO4HD3YMdb1iq+2DSU7+HOkEkruQm+4\nHj8Ic9QETrvKCw9616jiN5Fm\n-----END PRIVATE KEY-----\n",
+  "client_email": "alassist@alassist-eqaluv.iam.gserviceaccount.com",
+  "client_id": "111667210044936201969",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/alassist%40alassist-eqaluv.iam.gserviceaccount.com"
+}
