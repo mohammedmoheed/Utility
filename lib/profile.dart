@@ -32,7 +32,9 @@ class Aboutus extends StatelessWidget {
             Container(
               height: 180,
               decoration: BoxDecoration(
-                  gradient: LinearGradient(colors: [startColor, endColor])),
+                color: Colors.lightBlueAccent,
+                  //gradient: LinearGradient(colors: [startColor, endColor])
+                 ),
             ),
             Positioned(
               top: 0,

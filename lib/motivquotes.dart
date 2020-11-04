@@ -119,10 +119,7 @@ class _QuoteListState extends State<QuoteList> {
             Container(
               padding: EdgeInsets.all(20),
               decoration: BoxDecoration (
-                  gradient: LinearGradient(
-                    colors: [ const Color(0xFF5032b6),
-                      const Color(0xFFb765d3)],
-                  )
+                color: Colors.lightBlueAccent
               ),
 
               child: Column(
@@ -131,14 +128,6 @@ class _QuoteListState extends State<QuoteList> {
             )
           ],
         )
-
-
-
-      // children: quotes.map( (quote) {
-      // return Text(quote);
-      //  }).toList()
-
-
     );
   }
 }

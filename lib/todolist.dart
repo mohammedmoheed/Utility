@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'spalsh_screen.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
+
+import 'tasklist.dart';
 
 
 class ToDoList extends StatelessWidget {
@@ -14,7 +14,7 @@ class ToDoList extends StatelessWidget {
         primarySwatch: Colors.blue,
         canvasColor: Colors.transparent,
       ),
-      home: SplashScreen(),
+      home: TaskList(),
     );
   }
 }
