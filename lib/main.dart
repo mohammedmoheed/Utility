@@ -2,7 +2,6 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:pistevov2/Alassist.dart';
 import 'package:pistevov2/motivquotes.dart';
-import 'package:pistevov2/todolist.dart';
 import 'package:pistevov2/watchme.dart';
 import 'letsexcercise.dart';
 
@@ -79,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
               });
             },
             children: <Widget>[
-              ToDoList(),
+              Letsexercise(),
               Letsexercise(),
               Watchme(),
               QuoteList(),
