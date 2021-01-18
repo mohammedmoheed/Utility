@@ -1,12 +1,10 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:pistevov2/Alassist.dart';
 import 'package:pistevov2/motivquotes.dart';
 import 'package:pistevov2/watchme.dart';
 import 'letsexcercise.dart';
 
 
-//import 'motivquotes.dart';
 
 void main() => runApp(Pistevo());
 
@@ -78,11 +76,10 @@ class _MyHomePageState extends State<MyHomePage> {
               });
             },
             children: <Widget>[
-              Letsexercise(),
+              QuoteList(),
               Letsexercise(),
               Watchme(),
               QuoteList(),
-              AlassyDialogFlow(),
             ],
           ),
         ), //body closed
@@ -94,7 +91,6 @@ class _MyHomePageState extends State<MyHomePage> {
             Icon(Icons.gamepad,size: 40.0,color: Colors.orange,),
             Icon(Icons.location_on,size: 40.0,color: Colors.redAccent,),
             Icon(Icons.format_quote,size: 40.0,color: Colors.brown,),
-            Icon(Icons.chat,size: 40.0,color: Colors.greenAccent,),
           ],
           color: Colors.blue,
           buttonBackgroundColor: Colors.lightBlueAccent,
