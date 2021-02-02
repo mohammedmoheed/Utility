@@ -55,6 +55,7 @@ class _QuoteListState extends State<QuoteList> {
 
   ];
 
+
   Widget quoteTemplate(quote)  {
     return Card(
         margin: EdgeInsets.all(10),
@@ -71,7 +72,7 @@ class _QuoteListState extends State<QuoteList> {
                 quote.text,
                 style: TextStyle(
                   fontSize: 18,
-                  color: Colors.deepPurple,
+                  color: Colors.orange,
                 ),
 
               ),
@@ -81,7 +82,7 @@ class _QuoteListState extends State<QuoteList> {
                 quote.author,
                 style: TextStyle(
                   fontSize: 14,
-                  color: Colors.black,
+                  color: Colors.blueAccent,
                 ),
 
               ),
@@ -110,6 +111,7 @@ class _QuoteListState extends State<QuoteList> {
 
 
         ),
+
 
         body: ListView(
 

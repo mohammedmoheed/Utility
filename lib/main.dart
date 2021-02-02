@@ -27,6 +27,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   bool darkTheme = false;
   int _selected = 0;
+  //int _length = 3;
   PageController _pageController;
 
 
@@ -52,8 +53,8 @@ class _MyHomePageState extends State<MyHomePage> {
         drawer: Drawer(
             child: Column(children: <Widget>[
               new UserAccountsDrawerHeader(
-                  accountName: new Text("SETTINGS"),
-                  accountEmail: new Text("Personalised settings")), //upper bar
+                  accountName: new Text("ABOUT"),
+                  accountEmail: new Text("APP")), //upper bar
 
               ListTile(
                 title: Text("Dark Theme"), //dark theme switch
@@ -76,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
               });
             },
             children: <Widget>[
-              QuoteList(),
+
               Letsexercise(),
               Watchme(),
               QuoteList(),
@@ -85,12 +86,13 @@ class _MyHomePageState extends State<MyHomePage> {
         ), //body closed
         bottomNavigationBar: CurvedNavigationBar(
           index: _selected,
-          height: 45,
+          height: 55,
           items: <Widget>[
-            Icon(Icons.list,size: 40.0,color: Colors.white,),
             Icon(Icons.gamepad,size: 40.0,color: Colors.orange,),
-            Icon(Icons.location_on,size: 40.0,color: Colors.redAccent,),
-            Icon(Icons.format_quote,size: 40.0,color: Colors.brown,),
+            Icon(Icons.location_on,size: 40.0,color: Colors.red,),
+            Icon(Icons.list,size: 40.0,color: Colors.white,),
+            //Icon(Icons.format_quote,size: 40.0,color: Colors.brown,),
+
           ],
           color: Colors.blue,
           buttonBackgroundColor: Colors.lightBlueAccent,
