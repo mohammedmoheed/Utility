@@ -1,6 +1,10 @@
-# pistevov2
+# pistevov
 
-A new Flutter application.
+A new Flutter application. Having features-
+
+1) A Memory Game.
+2) A Share my location feature.
+3) A quote list for motivational quotes.
 
 ## Getting Started
 
