@@ -5,27 +5,14 @@ import 'package:pistevov2/models/TileModel.dart';
 
 
 
-class Letsexercise extends StatelessWidget {
-  // This widget is the root of your application.
+
+
+class Letsexercise extends StatefulWidget {
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: Home(),
-    );
-  }
+  _LetsexerciseState createState() => _LetsexerciseState();
 }
 
-class Home extends StatefulWidget {
-  @override
-  _HomeState createState() => _HomeState();
-}
-
-class _HomeState extends State<Home> {
+class _LetsexerciseState extends State<Letsexercise> {
   List<TileModel> gridViewTiles = new List<TileModel>();
   List<TileModel> questionPairs = new List<TileModel>();
 
@@ -57,7 +44,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      // backgroundColor: Colors.white,
       body: SingleChildScrollView(
         child: Container(
           padding: EdgeInsets.symmetric(horizontal: 20, vertical: 50),
@@ -161,7 +148,7 @@ class _HomeState extends State<Home> {
 class Tile extends StatefulWidget {
   String imageAssetPath;
   int tileIndex;
-  _HomeState parent;
+  _LetsexerciseState parent;
 
   Tile({this.imageAssetPath, this.tileIndex, this.parent});
 

@@ -15,7 +15,7 @@ class Watchme extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'My Location'),
+      home: MyHomePage(title: 'GPS' ,),
     );
   }
 }
@@ -23,6 +23,7 @@ class Watchme extends StatelessWidget {
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
   final String title;
+
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
@@ -42,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
   Future<Uint8List> getMarker() async {
-    ByteData byteData = await DefaultAssetBundle.of(context).load("assets/car_icon.png");    // to convert any icon for map
+    ByteData byteData = await DefaultAssetBundle.of(context).load("assets/arrow.png");    // to convert any icon for map
     return byteData.buffer.asUint8List();
   }
 
@@ -81,10 +82,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
       //_shareLink() {
       //debugPrint("in share link");
-      Timer.periodic(new Duration(seconds: 15), (timer) {
+      Timer.periodic(new Duration(minutes: 1), (timer) {
 
         Share.share("https://www.google.com/maps/place/${location.latitude},${location.longitude}");
-      });
+      }
+      );
 
 
       if (_locationSubscription != null) {
